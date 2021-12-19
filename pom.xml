@@ -28,7 +28,7 @@
 		<module>CurrencyExchangeService</module>
 		<module>CurrencyConversionService</module>
 		<module>NamingServer</module>
-		
+		<module>APIGateway</module>
 	</modules>
 
 	<dependencies>
