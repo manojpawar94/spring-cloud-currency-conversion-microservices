@@ -8,27 +8,15 @@
 		<version>1.0.0</version>
 	</parent>
 
-	<artifactId>LimitService</artifactId>
-	<name>LimitService</name>
-	<description>Limit Microservice</description>
-	<packaging>jar</packaging>
+	<artifactId>NamingServer</artifactId>
+	<name>NamingServer</name>
+	<description>Eureka Naming Server</description>
 
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-config</artifactId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency>
-
 	</dependencies>
 
 </project>

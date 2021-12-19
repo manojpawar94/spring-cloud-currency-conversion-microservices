@@ -25,6 +25,10 @@
 	<modules>
 		<module>LimitService</module>
 		<module>ConfigService</module>
+		<module>CurrencyExchangeService</module>
+		<module>CurrencyConversionService</module>
+		<module>NamingServer</module>
+		
 	</modules>
 
 	<dependencies>
